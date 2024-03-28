@@ -99,7 +99,7 @@ analytics:
   provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
@@ -107,7 +107,7 @@ author:
   name             : "개발하는 백수 :9"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "여전히 숨 쉬는 중.."
-  location         : "Somewhere"
+  #location         : "Somewhere"
   email            :
   links:
     - label: "Email"
